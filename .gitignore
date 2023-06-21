@@ -1,0 +1,47 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# GARBAGE IGNORE FILES GOES HERE
+*.DS_Store
+.DS_Store
+
+nbproject/private/private.xml
+nbproject/private.xml
+nbproject/
+
+.idea/*
+.idea/modules.xml
+.idea/vcs.xml
+.idea/vn_prov_system.iml
+.idea/workspace.xml
+
+# ROOT IGNORE FILES GOES HERE
+phpinfo.php
+license.txt
+
+# APPLICATION/CONFIG IGNORE FILES GOES HERE
+application/config/config.php
+application/config/database.php
+application/config/email.php
+
+application/config/production/config.php
+application/config/production/database.php
+application/config/production/email.php
+application/config/production/constants.php
+application/config/production/rest.php
+
+application/config/testing/config.php
+application/config/testing/database.php
+application/config/testing/email.php
+application/config/testing/constants.php
+application/config/testing/rest.php
+
+
+# APPLICATION/LOGS IGNORE FILES GOES HERE
+application/logs/*.php
+
+# APPLICATION/CONTROLLERS IGNORE FILES GOES HERE
+
+# APPLICATION/MODELS IGNORE FILES GOES HERE
+
+# ASSETS IGNORE FILES GOES HERE
+assets/uploads/

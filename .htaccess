@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+
+# Setting Env variables - NOTE: If you add new env other than development, stage2 and production then add a switch case in root index.php
+SetEnv CI_ENV development
+#SetEnv CI_ENV testing
+#SetEnv CI_ENV production

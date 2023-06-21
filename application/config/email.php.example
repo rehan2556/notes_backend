@@ -1,0 +1,9 @@
+<?php
+
+$config['protocol'] = 'smtp';
+$config['smtp_host'] = 'send.one.com';
+$config['smtp_user'] = ''; //Your sender email
+$config['smtp_pass'] = ''; // Your send email password
+$config['smtp_port'] = '587';
+$config['mailtype'] = 'html';
+$config['priority'] = 5;
